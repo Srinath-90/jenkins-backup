@@ -1,0 +1,30 @@
+Started by user [8mha:////4I7kUJNeTURei2dsXkIsnG2nw6HrxFT0HdPT9iWgHiXdAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL9YqDuxJIMAAzMPgzCAAAA[0mSrinath Reddy
+Running as SYSTEM
+Building remotely on [8mha:////4PiQ47D4Rds8YdYX3YG7Kr4YUnRD5QRBr7OZ2cR85/JqAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUQ30AXbxxvsYAAAA=[0mslave1 in workspace /home/ubuntu/workspace/c-project
+The recommended git tool is: NONE
+Warning: CredentialId "18668a39-9f77-4737-9520-a28352ad00aa" could not be found.
+Cloning the remote Git repository
+Cloning repository https://github.com/Srinath-90/c-project.git
+ > git init /home/ubuntu/workspace/c-project # timeout=10
+Fetching upstream changes from https://github.com/Srinath-90/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.53.0'
+ > git fetch --tags --force --progress -- https://github.com/Srinath-90/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Srinath-90/c-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ce2541d2fd779e462082954e01684979dbaa7bcb (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ce2541d2fd779e462082954e01684979dbaa7bcb # timeout=10
+Commit message: "Fix typo in test1 file"
+ > git rev-list --no-walk ce2541d2fd779e462082954e01684979dbaa7bcb # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins4131533262301126104.sh
++ cd /home/ubuntu/workspace/c-project
++ make
+gcc -c main.c
+gcc -c big3.c
+gcc -c fact.c
+gcc -c pal.c
+gcc -o ABC.exe main.o big3.o fact.o pal.o
+Finished: SUCCESS

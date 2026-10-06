@@ -1,0 +1,7 @@
+Started by user [8mha:////4I7kUJNeTURei2dsXkIsnG2nw6HrxFT0HdPT9iWgHiXdAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL9YqDuxJIMAAzMPgzCAAAA[0mSrinath Reddy
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-project
+[c-project] $ /bin/sh -xe /tmp/jenkins2908668888295219174.sh
++ /var/lib/jenkins/fact.sh 5
+Factorial of 5 is: 120
+Finished: SUCCESS

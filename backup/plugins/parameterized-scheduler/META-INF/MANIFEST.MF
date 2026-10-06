@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.5
+Java-Version: 17
+Build-Jdk-Spec: 21
+Specification-Title: Parameterized Scheduler
+Specification-Version: 0.0
+Implementation-Title: Parameterized Scheduler
+Implementation-Version: 379.v95c73f233a_df
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: parameterized-scheduler
+Short-Name: parameterized-scheduler
+Long-Name: Parameterized Scheduler
+Url: https://github.com/jenkinsci/parameterized-scheduler-plugin
+Plugin-Version: 379.v95c73f233a_df
+Hudson-Version: 2.528.3
+Jenkins-Version: 2.528.3
+Plugin-Dependencies: workflow-job:1571.vb_423c255d6d9
+Plugin-Developers: Raihaan Shouhell:raihaan:raihaanhimself@gmail.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/parameterized
+ -scheduler-plugin.git
+Plugin-ScmTag: 95c73f233adfc38eb217794f6471ba33b526a928
+Plugin-ScmUrl: https://github.com/jenkinsci/parameterized-scheduler-plug
+ in
+Implementation-Build: 95c73f233adfc38eb217794f6471ba33b526a928
+

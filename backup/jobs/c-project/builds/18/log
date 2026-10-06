@@ -1,0 +1,24 @@
+Started by GitHub push by Srinath-90
+Running as SYSTEM
+Building remotely on [8mha:////4PiQ47D4Rds8YdYX3YG7Kr4YUnRD5QRBr7OZ2cR85/JqAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUQ30AXbxxvsYAAAA=[0mslave1 in workspace /home/ubuntu/workspace/c-project
+The recommended git tool is: NONE
+using credential 677076a2-43e7-41c2-b410-01d0fcf4e40e
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Srinath-90/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/Srinath-90/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.53.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/Srinath-90/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 28abf173e552cb97cc8927fa784620587ee38f1b (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 28abf173e552cb97cc8927fa784620587ee38f1b # timeout=10
+Commit message: "Add new file test2"
+ > git rev-list --no-walk aec3b71454d835a09516747555774cd42bf37ec0 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins13595923398372990964.sh
++ cd /home/ubuntu/workspace/c-project
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

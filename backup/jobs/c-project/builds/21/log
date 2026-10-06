@@ -1,0 +1,23 @@
+Started by user [8mha:////4I7kUJNeTURei2dsXkIsnG2nw6HrxFT0HdPT9iWgHiXdAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL9YqDuxJIMAAzMPgzCAAAA[0mSrinath Reddy
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/c-project
+The recommended git tool is: NONE
+Warning: CredentialId "677076a2-43e7-41c2-b410-01d0fcf4e40e" could not be found.
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Srinath-90/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/Srinath-90/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.53.0'
+ > git fetch --tags --force --progress -- https://github.com/Srinath-90/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ce2541d2fd779e462082954e01684979dbaa7bcb (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ce2541d2fd779e462082954e01684979dbaa7bcb # timeout=10
+Commit message: "Fix typo in test1 file"
+ > git rev-list --no-walk ce2541d2fd779e462082954e01684979dbaa7bcb # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins1819244883520149845.sh
++ cd /home/ubuntu/workspace/c-project
+/tmp/jenkins1819244883520149845.sh: 2: cd: can't cd to /home/ubuntu/workspace/c-project
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

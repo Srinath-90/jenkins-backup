@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Gearman Plugin
+Specification-Version: 0.8
+Implementation-Title: Gearman Plugin
+Implementation-Version: 0.8.0
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: gearman-plugin
+Short-Name: gearman-plugin
+Long-Name: Gearman Plugin
+Url: https://github.com/jenkinsci/gearman-plugin
+Plugin-Version: 0.8.0
+Hudson-Version: 2.479.1
+Jenkins-Version: 2.479.1
+Plugin-Dependencies: gson-api:2.11.0-85.v1f4e87273c33,maven-plugin:3.24;
+ resolution:=optional,workflow-job:1496.v5b_18defc07f2,structs:338.v8484
+ 22169819
+Plugin-Developers: Khai Do:zaro0508:zaro0508@gmail.com,Antoine Musso:has
+ har:hashar@free.fr
+Plugin-License-Name: Apache License Version 2.0
+Plugin-License-Url: http://www.apache.org/licenses/LICENSE-2.0.txt
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/gearman-plugi
+ n.git
+Plugin-ScmTag: gearman-plugin-0.8.0
+Plugin-ScmUrl: https://github.com/jenkinsci/gearman-plugin
+Implementation-Build: fbbcf0c8a267a5b992d44e747d03e5172dcb2ecf
+
